@@ -1,0 +1,42 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+
+:root {
+    --cor-de-fundo: rgb(71, 2, 2);
+    --preto: rgb(255, 254, 254);
+    --branco: black;
+    --rosa: #eb004e;
+    --vermelho-degrade: linear-gradient(97.54deg, #5e0202 35.49%, #c51e1e 165.37%);
+    --fonte-principal: "Poppins";
+    --azul: red;
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 27px;
+    font-weight: 400;
+}
+.cabeçalho img {
+    margin-right: 20px; 
+}
+
+.lista-menu__titulo {
+    color: #470202; /* ajuste para a cor desejada */
+}
+
+.lista-menu__item a {
+    color: #b81212; /* ajuste para a mesma cor desejada */
+} 
+
+card__descrição p {
+    margin: 0; /* Remove margens padrão */
+}
+
+.card__descrição h3, 
+.card__descrição h2, 
+.card__descrição p {
+    margin-bottom: 35px; /* Ajuste o valor conforme necessário */
+}

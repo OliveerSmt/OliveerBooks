@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OliveerBooks</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header class="cabeçalho">
+    <div class="container">
+    
+      <input type="checkbox" id="menu" class="container__botao">
+
+      <img src="img/logo darkside.png" class="logo">
+      
+      <label for="menu"> 
+        <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+      </label>
+      <ul class="lista-menu"> 
+        <li class="lista-menu__titulo">CATEGORIA</li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__item">Terror e Suspense</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__item">Sobrenatural</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__item">Romance</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__item">Crimes e Investigação</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="#" class="lista-menu__item">Ação e Aventura</a>
+        </li>
+      </ul>
+      <img src="img/darkside-logo-header-desk.svg" alt="Logo da DARKSIDE em parceria com OLIVERBOOKS" class="container__imagem">
+    </div>
+    <div class="container">
+      <a href="#"><img src="img/favoritos darkside.svg" alt="Meus favoritos" class="container__imagem"></a>
+      <a href="#"><img src="img/sacola darkside.svg" alt="Carrinhos de compras" class="container__imagem"></a>
+      <a href="#"><img src="img/user darkside.jpeg" alt="Meu perfil" width="40" height="auto" class="container__imagem"></a>
+    </div>
+  </header>
+
+  <section class="banner">
+    <h2 class="banner__titulo">Um amante dos contos mais assustadores?</h2>
+    <p class="banner__texto">Encontre os melhores editais macabros para a sua vida!
+    <input type="search" class="banner__pesquisa" placeholder="Títulos, Autores, Gêneros e Linhas editoriais">
+  </section>
+
+  <section class="carrossel">
+    <h2 class="carrossel__titulo">Novos lançamentos</h2>
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="img/Dark Box Collection - Cesar Bravo + Brindes Exclusivos.jpeg"
+            alt="Livro Dark Box Collection - Cesar Bravo + Brindes Exclusivos"></div>
+        <div class="swiper-slide"><img src="img/O Corvo - Edição Definitiva.jpeg"
+            alt="Livro sobre O Corvo - Edição Definitiva"></div>
+        <div class="swiper-slide"><img src="img/Pedra Papel Tesoura + Brinde Exclusivo.jpeg" 
+            alt="Livro sobre Pedra Papel Tesoura + Brinde Exclusivo">
+        </div>
+        <div class="swiper-slide">
+          <img src="img/Saberes Eternos da Baba Yaga + Brinde Exclusivo.jpeg" 
+          alt="Livro dos Saberes Eternos da Baba Yaga" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img/Lady Killer - Graphic Novel +Brinde Exclusivo.jpeg" 
+          alt="Livro sobre a Lady Killer" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img/Alice no País das Maravilhas e Através do Espelho - Edição Pesadelo + Brindes Exclusivos.jpeg"
+           alt="Livro da Alice no País das Maravilhas e Através do Espelho" />
+        </div>
+      </div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+    </div>
+    <style>
+        .maior { font-size: 52px; }
+        .menor { font-size: 35px; }
+    </style>
+    <div class="card">
+      <div class="card__descrição">
+        <div class="descrição">
+         <h3 class="menor"><p style="color: rgb(65, 0, 0);">Talvez você também se interesse por...</p></h3>
+         <h2 class="maior"><p style="color: rgb(77, 34, 10);">Frankenstein: Monster Edition </p></h2> 
+         
+          <p class="menor"><p style="color: white;">O grande clássico da literatura revive em uma edição monstruosa! </p>
+        </div>
+        <img src="img/Frank darkside.png" width="200" height="auto" class="descrição__imagem" />
+      </div>
+      <div class="card__botões">
+        <ul class="botões">
+          <li class="botões__item">
+            <img src="img/favoritos darkside.svg"
+             alt="Favoritar livro" />
+          </li>
+          <li class="botões__item">
+            <img src="img/sacola darkside.svg" alt="Adicionar no carrinho de compras" />
+          </li>
+        </ul>
+        <a href="#" class="botões__ancora">Saiba mais</a>
+      </div>
+    </div>
+
+  </section>
+
+  <section class=”carrossel”>
+    <h2 class="carrossel__titulo"><p style="color: white;">Mais vendidos</h2></p>
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="img/O Pássaro Pintado.jpeg"
+            alt="Livro sobre O Pássaro Pintado de DARKSIDE"></div>
+        <div class="swiper-slide"><img src="img/Grimório Oculto.jpeg" alt="Livro sobre as Artes Ocultas do Grimório">
+        </div>
+        <div class="swiper-slide"><img src="img/O Assassino em Mim.jpeg" alt="Livro macabro da DARKSIDE">
+        </div>
+        <div class="swiper-slide"><img src="img/Floresta dos Medos.jpeg" alt="Livro das Floresta dos Medos"></div>
+        <div class="swiper-slide"><img src="img/Causas Não Naturais.jpeg" alt="Livro informando as Causas Não Naturais "></div>
+        <div class="swiper-slide"><img src="img/Todas as Faces da Morte.jpeg" alt="livro de Todas as Faces da Morte-DARKSIDE"></div>
+      </div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+    <div class="card">
+      <!-- 1º linha -->
+      <div class="card__descrição">
+        <!-- 1º coluna -->
+        <div class="descrição">
+          <img src="img/Estrelinhas.svg" alt="Avaliação 5 estrelas">
+          <h3 class="descrição__titulo"><p style="color: white;">Autor Sugerido</h3></p>
+         
+          <h2 class="descrição__titulo-livro">Raphael Montes</h2>
+       
+          <p class="descrição"><p style="color: rgb(71, 2, 2);">Raphael Montes é um escritor e roteirista brasileiro de literatura policial e suspense.
+          </p>
+        </div>
+        <!-- 2º coluna -->
+        <img src="img/Raphael Montes.jpeg" width="200" height="auto" class="descrição__imagem">
+      </div>
+
+      <!-- 2º linha -->
+      <div class="card__botões">
+        <!-- 1º coluna -->
+        <ul class="botões">
+          <li class="botões__item"><img src="img/favoritos darkside.svg" alt="Favoritar livro"></li>
+          <li class="botões__item"><img src="img/sacola darkside.svg" alt="Adicionar no carrinho de compras"></li>
+        </ul>
+        <!-- 2º coluna -->
+        <a href="#" class="botões__ancora">Saiba mais</a>
+      </div>
+    </div>
+
+
+
+  </section>
+
+  <section class="tópicos">
+    <h2 class="tópicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+    <ul class="tópicos__lista">
+      <li class="tópicos__item"><a href="https://www.darksidebooks.com.br/?page=1" class="tópicos__link">Home</a></li>
+      <li class="tópicos__item">
+        <a href="https://www.darksidebooks.com.br/livros?page=2" class="tópicos__link">Livros</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="https://www.darksidebooks.com.br/darkside" class="tópicos__link">Darkside</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="https://www.darksidebooks.com.br/macabra" class="tópicos__link">Macabra</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="https://www.darksidebooks.com.br/editora" class="tópicos__link">Editora</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="https://www.darksidebooks.com.br/politica-de-privacidade" class="tópicos__link">Política de Privacidade</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="https://www.instagram.com/darksidebooks/?hl=pt-br" class="tópicos__link">Instagram</a>
+      </li>
+      
+    </ul>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper(".swiper", {
+      spaceBetween: 10,
+      slidesPerView: 3,
+      pagination: {
+        el: ".swiper-pagination",
+        type: "bullets",
+      },
+    });
+  </script>
+</body>
+
+</html>
